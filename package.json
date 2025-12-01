@@ -1,23 +1,18 @@
 {
-  "name": "proyecto-backend76615",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eljota00/backend-1-76615.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eljota00/backend-1-76615/issues"
-  },
-  "homepage": "https://github.com/eljota00/backend-1-76615#readme",
-  "description": "",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+"name": "entrega1-api",
+"version": "1.0.0",
+"description": "API de productos y carritos para Entrega N\u00b01 - Node + Express",
+"main": "index.js",
+"scripts": {
+"start": "node index.js",
+"dev": "nodemon index.js"
+},
+"author": "Tu Nombre",
+"license": "MIT",
+"dependencies": {
+"express": "^4.18.2"
+},
+"devDependencies": {
+"nodemon": "^2.0.22"
+}
 }
